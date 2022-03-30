@@ -13,7 +13,7 @@ if __name__ == "__main__":
             max_value = current_value
         print("Найден максимальный элемент = ", max_value)
 
-    list_[0] = max_index
+    list_[0] = max_index1
     max_value1
     print(list_)
 

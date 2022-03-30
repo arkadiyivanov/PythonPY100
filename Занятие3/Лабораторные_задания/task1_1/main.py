@@ -3,7 +3,17 @@ def main():
     current_sum = 0  # текущая сумма
     max_sum = 500  # максимальная сумма
 
-    # TODO  найти количество чисел сумма квадратов, которых не превышает 500
+
+    while True:
+        current_value = n ** 2
+        if current_value + current_sum >= max_sum:
+            break
+        current_sum = current_value + current_sum
+        n = n + 1
+    return n, current_sum
+
+
+
 
 
 if __name__ == "__main__":
