@@ -11,21 +11,21 @@ files:
       offset: 42
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       words_list_without_empty_string = []
           for word in str_words.split(" "):
               if word:
                   words_list_without_empty_string.append(word)
   - offset: 109
-    length: 45
+    length: 46
     placeholder_text: '...  # TODO вывести множество уникальных слов'
     initial_state:
       length: 45
       offset: 109
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: return set(words_list_without_empty_string)
   text: |
     def get_unique_words(str_words: str):
@@ -40,6 +40,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
