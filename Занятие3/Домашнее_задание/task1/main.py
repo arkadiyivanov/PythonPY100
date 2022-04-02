@@ -10,7 +10,9 @@ def input_numbers():
 
     return list_numbers # TODO выберите нужный цикл, чтобы получать числа с клавиатуры
 
-    while input_num > 0
+    while input_num > 0:
 if __name__ == "__main__":
     numbers = input_numbers()
     print(numbers)
+
+

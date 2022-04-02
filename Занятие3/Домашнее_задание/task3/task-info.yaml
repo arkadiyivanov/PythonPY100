@@ -10,20 +10,20 @@ files:
   visible: true
   placeholders:
   - offset: 40
-    length: 41
+    length: 338
     placeholder_text: '...  # TODO получить список непустых слов'
     initial_state:
       length: 41
       offset: 40
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       words_list_without_empty_string = []
           for word in str_words.split(" "):
               if word:
                   words_list_without_empty_string.append(word)
-  - offset: 159
+  - offset: 456
     length: 61
     placeholder_text: '...  # TODO пройти по всем словам и найти самую большую длину'
     initial_state:
@@ -31,13 +31,13 @@ files:
       offset: 159
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for word in words_list_without_empty_string:
               current_word_len = len(word)
               if current_word_len > max_len:
                   max_len = current_word_len
-  - offset: 226
+  - offset: 523
     length: 71
     placeholder_text: '...  # TODO составить список из слов, длина которых равна самой
       большой'
@@ -46,7 +46,7 @@ files:
       offset: 226
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       max_len_words = []
           for word in words_list_without_empty_string:
@@ -71,5 +71,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 02 Apr 2022 07:37:32 UTC
 record: -1
