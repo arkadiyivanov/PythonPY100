@@ -1,1 +1,1 @@
-print(sum(list(range)) # TODO найти сумму натуральных чисел
+print(sum(range(-10, 21, 2))) # TODO найти сумму натуральных чисел

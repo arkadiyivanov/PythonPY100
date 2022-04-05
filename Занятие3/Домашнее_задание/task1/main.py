@@ -1,18 +1,18 @@
 def input_numbers():
-    list_numbers = 0
-
+    numbers_list = []
     while True:
-        input_num = int(input("Введите новое число"))
-        if input_num < 0:
+        number = int(input("Введите число: "))
+        if 3 <= number <= 13:
+            numbers_list.append(number)
+
+        if number < 0:
+            numbers_list.append(number)
             break
-        if 3 <= input_num <= 13:
-            list_numbers.append(input_num)
 
-    return list_numbers # TODO выберите нужный цикл, чтобы получать числа с клавиатуры
+    return numbers_list
 
-    while input_num > 0:
+
 if __name__ == "__main__":
     numbers = input_numbers()
     print(numbers)
-
 

@@ -11,7 +11,7 @@ files:
       offset: 48
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '[i ** 2 for i in range(n) if i % 2 == 0])'
   text: |
     if __name__ == "__main__":
@@ -21,6 +21,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

@@ -4,21 +4,21 @@ files:
   visible: true
   placeholders:
   - offset: 42
-    length: 61
+    length: 93
     placeholder_text: '...  # TODO найти список слов в строке исключив пустые строки'
     initial_state:
       length: 61
       offset: 42
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       words_list_without_empty_string = []
           for word in str_words.split(" "):
               if word:
                   words_list_without_empty_string.append(word)
-  - offset: 109
-    length: 46
+  - offset: 141
+    length: 194
     placeholder_text: '...  # TODO вывести множество уникальных слов'
     initial_state:
       length: 45
@@ -41,5 +41,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Tue, 05 Apr 2022 08:40:46 UTC
 record: -1
 post_submission_on_open: true

@@ -9,15 +9,15 @@ files:
   visible: true
   placeholders:
   - offset: 14
-    length: 72
+    length: 99
     placeholder_text: '...  # TODO используя операторы умножения и сложения сформировать
       список'
     initial_state:
       length: 72
       offset: 14
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '[0] * 20 + [1] * 50 + [2] * 30'
   text: |
     result_list = ...  # TODO используя операторы умножения и сложения сформировать список
@@ -27,5 +27,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 05 Apr 2022 06:27:42 UTC
 record: -1
