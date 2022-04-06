@@ -19,7 +19,7 @@ files:
     status: Failed
     encrypted_possible_answer: 5
   - offset: 135
-    length: 79
+    length: 81
     placeholder_text: '...  # TODO использую оператор возведения в степень найти площадь
       круга'
     initial_state:
