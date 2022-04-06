@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     number = 123456789
 
-    list_digits = [int(digit) for digit in str(number)] # TODO c помощью list comprehension получить список цифр числа
+    list_digits = [int(digit) for digit in str(number)]  # TODO c помощью list comprehension получить список цифр числа
     print(list_digits)
 
     print(sum(set(list_digits)))  # TODO найти сумму цифр числа

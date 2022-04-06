@@ -9,17 +9,17 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 77
+    length: 59
     placeholder_text: 'def task(n, m):  # TODO записать функцию с аннотацией типов'
     initial_state:
       length: 59
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'def task(n: int, m: int) -> list:'
-  - offset: 82
-    length: 106
+  - offset: 64
+    length: 105
     placeholder_text: '...  # TODO с помощью list comprehension найти квадраты целых
       чисел'
     initial_state:
@@ -46,5 +46,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 10:04:33 UTC
+  time: Wed, 06 Apr 2022 15:43:18 UTC
 record: -1

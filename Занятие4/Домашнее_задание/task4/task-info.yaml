@@ -12,25 +12,25 @@ files:
   visible: true
   placeholders:
   - offset: 43
-    length: 121
+    length: 44
     placeholder_text: '...  # TODO проверить что число шестизначное'
     initial_state:
       length: 44
       offset: 43
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       if len(str(num)) != 6:
               raise ValueError("Число не шестизначное :(")
-  - offset: 170
-    length: 164
+  - offset: 93
+    length: 46
     placeholder_text: '...  # TODO проверить счастливое число или нет'
     initial_state:
       length: 46
       offset: 93
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       list_digits = [int(digit) for digit in str(num)]
@@ -54,5 +54,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 13:56:01 UTC
+  time: Wed, 06 Apr 2022 16:55:23 UTC
 record: -1

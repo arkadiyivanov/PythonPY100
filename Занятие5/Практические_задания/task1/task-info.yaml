@@ -10,8 +10,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 170
-    length: 48
+  - offset: 239
+    length: 43
     placeholder_text: '...:  # TODO Как получить количество строк?'
     initial_state:
       length: 43
@@ -20,8 +20,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 'range(len(matrix)):'
-  - offset: 244
-    length: 51
+  - offset: 308
+    length: 46
     placeholder_text: '...:  # TODO как получить количество столбцов?'
     initial_state:
       length: 46
@@ -48,5 +48,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Wed, 06 Apr 2022 18:12:48 UTC
 record: -1
 post_submission_on_open: true

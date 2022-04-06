@@ -9,3 +9,4 @@ if __name__ == "__main__":
         print(cart[fruit])  # получаем значение по ключу
 
     print(sum(cart.values())) # TODO посчитать через метод values
+

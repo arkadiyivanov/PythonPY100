@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 196
-    length: 61
+    length: 35
     placeholder_text: '# TODO посчитать через метод values'
     initial_state:
       length: 35
       offset: 196
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: print(sum(cart.values()))
   text: |
@@ -31,6 +31,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Tue, 05 Apr 2022 09:53:32 UTC
+  time: Wed, 06 Apr 2022 15:40:07 UTC
 record: -1
 post_submission_on_open: true

@@ -10,7 +10,7 @@ files:
   visible: true
   placeholders:
   - offset: 244
-    length: 102
+    length: 28
     placeholder_text: '{...}  # TODO записать dict comprehension'
     initial_state:
       length: 41
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 09:47:42 UTC
+  time: Wed, 06 Apr 2022 15:35:45 UTC
 record: -1

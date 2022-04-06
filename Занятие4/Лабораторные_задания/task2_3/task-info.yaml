@@ -12,17 +12,17 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 61
+    length: 47
     placeholder_text: 'def task(num):  # TODO добавить аннотацию типов'
     initial_state:
       length: 47
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'def task(num: int) -> bool:'
-  - offset: 66
-    length: 160
+  - offset: 52
+    length: 61
     placeholder_text: '...  # TODO найти сумму цифр числа и понять двузначная ли она'
     initial_state:
       length: 61
@@ -50,5 +50,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 12:15:49 UTC
+  time: Wed, 06 Apr 2022 16:46:56 UTC
 record: -1

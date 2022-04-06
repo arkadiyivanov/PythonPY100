@@ -10,14 +10,14 @@ files:
   visible: true
   placeholders:
   - offset: 32
-    length: 161
+    length: 71
     placeholder_text: '...  # TODO какая есть особенность, когда все цифры в числе
       одинаковые?'
     initial_state:
       length: 71
       offset: 32
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       list_digits = [int(digit) for digit in str(num)]
@@ -37,5 +37,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 13:14:11 UTC
+  time: Wed, 06 Apr 2022 16:55:15 UTC
 record: -1

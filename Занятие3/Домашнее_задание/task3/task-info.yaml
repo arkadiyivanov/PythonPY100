@@ -10,7 +10,7 @@ files:
   visible: true
   placeholders:
   - offset: 40
-    length: 338
+    length: 41
     placeholder_text: '...  # TODO получить список непустых слов'
     initial_state:
       length: 41
@@ -23,7 +23,7 @@ files:
           for word in str_words.split(" "):
               if word:
                   words_list_without_empty_string.append(word)
-  - offset: 456
+  - offset: 159
     length: 61
     placeholder_text: '...  # TODO пройти по всем словам и найти самую большую длину'
     initial_state:
@@ -37,7 +37,7 @@ files:
               current_word_len = len(word)
               if current_word_len > max_len:
                   max_len = current_word_len
-  - offset: 523
+  - offset: 226
     length: 71
     placeholder_text: '...  # TODO составить список из слов, длина которых равна самой
       большой'
@@ -74,5 +74,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 02 Apr 2022 07:37:32 UTC
+  time: Wed, 06 Apr 2022 15:11:04 UTC
 record: -1

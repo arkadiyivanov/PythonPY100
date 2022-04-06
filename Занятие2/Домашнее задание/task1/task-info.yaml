@@ -9,7 +9,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 209
+  - offset: 207
     length: 150
     placeholder_text: |-
       # TODO заменить на enumerate
@@ -49,7 +49,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Tue, 05 Apr 2022 07:19:45 UTC
+  time: Wed, 06 Apr 2022 17:04:07 UTC
   actual: |
-    Минимальный элемент = -10 находится по индексу 3
+    Минимальный элемент = -1 находится по индексу 6
 record: -1

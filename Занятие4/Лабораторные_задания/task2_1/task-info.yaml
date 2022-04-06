@@ -15,7 +15,7 @@ files:
   visible: true
   placeholders:
   - offset: 69
-    length: 100
+    length: 101
     placeholder_text: '...  # TODO c помощью list comprehension получить список цифр
       числа'
     initial_state:
@@ -25,7 +25,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '[int(digit) for digit in str(number)]'
-  - offset: 204
+  - offset: 205
     length: 53
     placeholder_text: '...)  # TODO найти сумму цифр числа'
     initial_state:
@@ -35,7 +35,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: sum(list_digits))
-  - offset: 269
+  - offset: 270
     length: 103
     placeholder_text: '...)  # TODO найти сумму всех четных чисел'
     initial_state:
@@ -46,7 +46,7 @@ files:
     status: Solved
     encrypted_possible_answer: sum([even_digit for even_digit in list_digits if even_digit
       % 2 == 0]))
-  - offset: 384
+  - offset: 385
     length: 47
     placeholder_text: '...)  # TODO найти количество цифр'
     initial_state:
@@ -56,7 +56,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: len(list_digits))
-  - offset: 443
+  - offset: 444
     length: 49
     placeholder_text: '...)  # TODO найти минимальную цифру'
     initial_state:
@@ -66,7 +66,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: min(list_digits))
-  - offset: 504
+  - offset: 505
     length: 62
     placeholder_text: '...)  # TODO все цифры стоящие на нечетных местах'
     initial_state:
@@ -76,7 +76,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: list_digits[::2])
-  - offset: 578
+  - offset: 579
     length: 87
     placeholder_text: '...)  # TODO найти разность между первой и последней цифрой'
     initial_state:
@@ -111,5 +111,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 11:44:59 UTC
+  time: Wed, 06 Apr 2022 16:37:47 UTC
 record: -1

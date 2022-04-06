@@ -8,8 +8,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 117
-    length: 117
+  - offset: 123
+    length: 112
     placeholder_text: 'new_list = []  # TODO Заполните список с помощью list comprehension'
     initial_state:
       length: 67
@@ -34,5 +34,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 10:26:56 UTC
+  time: Wed, 06 Apr 2022 16:09:25 UTC
 record: -1

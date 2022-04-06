@@ -11,13 +11,13 @@ files:
   visible: true
   placeholders:
   - offset: 81
-    length: 183
+    length: 57
     placeholder_text: '# TODO найти суммуб количество и среднее уникальных чисел'
     initial_state:
       length: 57
       offset: 81
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       unique_numbers = set(list_)
@@ -38,5 +38,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 06:24:28 UTC
+  time: Wed, 06 Apr 2022 17:01:19 UTC
 record: -1

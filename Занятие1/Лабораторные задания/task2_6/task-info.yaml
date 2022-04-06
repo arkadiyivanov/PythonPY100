@@ -9,13 +9,13 @@ files:
   visible: true
   placeholders:
   - offset: 9
-    length: 58
+    length: 43
     placeholder_text: '...  # TODO сформировать кортеж целых чисел'
     initial_state:
       length: 43
       offset: 9
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: tuple(range(20, 3, -4))
   text: |
@@ -29,5 +29,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 06:22:06 UTC
+  time: Wed, 06 Apr 2022 17:01:16 UTC
 record: -1

@@ -12,7 +12,7 @@ files:
   visible: true
   placeholders:
   - offset: 24
-    length: 54
+    length: 80
     placeholder_text: '...  # TODO сформировать список цифр'
     initial_state:
       length: 36
@@ -21,8 +21,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: list_digits = [int(digit) for digit in str(num)]
-  - offset: 80
-    length: 86
+  - offset: 113
+    length: 80
     placeholder_text: '...:  # TODO записать условие'
     initial_state:
       length: 29
@@ -53,5 +53,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 11:57:59 UTC
+  time: Wed, 06 Apr 2022 16:41:41 UTC
 record: -1

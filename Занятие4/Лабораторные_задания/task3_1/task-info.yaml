@@ -12,76 +12,76 @@ files:
   visible: true
   placeholders:
   - offset: 51
-    length: 105
+    length: 96
     placeholder_text: '...  # TODO для начала нужно перевести текст в нижний регистр
       и не забыть что возвращается копия'
     initial_state:
       length: 96
       offset: 51
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: str_.lower()
-  - offset: 254
-    length: 97
+  - offset: 245
+    length: 86
     placeholder_text: '...:  # TODO с помощью метода строк isalpha будем проверять,
       является ли символ буквой'
     initial_state:
       length: 86
       offset: 245
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'char.isalpha():'
-  - offset: 367
-    length: 67
+  - offset: 347
+    length: 53
     placeholder_text: '...:  # TODOпроверяем есть ли уже символ среди ключей'
     initial_state:
       length: 53
       offset: 347
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'char in char_dict:'
-  - offset: 451
-    length: 67
+  - offset: 417
+    length: 51
     placeholder_text: '...  # TODO если есть, то увеличиваем значение на 1'
     initial_state:
       length: 51
       offset: 417
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: char_dict[char] += 1
-  - offset: 553
-    length: 77
+  - offset: 503
+    length: 62
     placeholder_text: '...  # TODO в противном случае создаем новый элемент в словаре'
     initial_state:
       length: 62
       offset: 503
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: char_dict[char] = 1
-  - offset: 718
-    length: 65
+  - offset: 653
+    length: 45
     placeholder_text: '...  # TODO найти сумму всех значений словаря'
     initial_state:
       length: 45
       offset: 653
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: sum(char_dict.values())
-  - offset: 796
-    length: 167
+  - offset: 711
+    length: 96
     placeholder_text: '...  # TODO с помощью dict comprehension возвращаем словарь
       с процентными соотношениями значений'
     initial_state:
       length: 96
       offset: 711
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '{char: round(value / total_count, 3) for char, value
       in char_dict.items()}'
@@ -106,5 +106,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 13:07:06 UTC
+  time: Wed, 06 Apr 2022 16:54:47 UTC
 record: -1

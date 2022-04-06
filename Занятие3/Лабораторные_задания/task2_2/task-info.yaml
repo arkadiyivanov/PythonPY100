@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 34
-    length: 32
+    length: 68
     placeholder_text: '...  # TODO привести строку к единому регистру и избавиться
       от пробелов'
     initial_state:
@@ -14,14 +14,14 @@ files:
     selected: true
     status: Unchecked
     encrypted_possible_answer: str_clear = ''.join(str_.lower().split())
-  - offset: 72
-    length: 41
+  - offset: 108
+    length: 35
     placeholder_text: 'if ...:  # TODO проверка палиндрома'
     initial_state:
       length: 35
       offset: 111
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: 'if str_clear == str_clear[::-1]:'
   text: |
@@ -42,8 +42,4 @@ files:
   visible: false
   learner_created: false
 status: Unchecked
-feedback:
-  message: Failed to launch checking. For more information, see <a href="https://plugins.jetbrains.com/plugin/10081-edutools/docs/troubleshooting-guide.html#failed_to_launch_checking">the
-    Troubleshooting guide</a>
-  time: Tue, 05 Apr 2022 08:27:04 UTC
 record: -1

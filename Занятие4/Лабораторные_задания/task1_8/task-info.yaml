@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 133
+    length: 125
     placeholder_text: |-
       def task():  # TODO записать решение в виде функции
           ...
@@ -38,5 +38,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 05 Apr 2022 11:28:27 UTC
+  time: Wed, 06 Apr 2022 16:31:38 UTC
 record: -1
