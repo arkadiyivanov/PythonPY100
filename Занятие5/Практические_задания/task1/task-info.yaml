@@ -10,22 +10,22 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 239
-    length: 43
+  - offset: 194
+    length: 53
     placeholder_text: '...:  # TODO Как получить количество строк?'
     initial_state:
-      length: 43
-      offset: 170
+      length: 53
+      offset: 194
     initialized_from_dependency: false
     selected: true
     status: Solved
     encrypted_possible_answer: 'range(len(matrix)):'
-  - offset: 308
-    length: 46
+  - offset: 273
+    length: 67
     placeholder_text: '...:  # TODO как получить количество столбцов?'
     initial_state:
-      length: 46
-      offset: 239
+      length: 67
+      offset: 273
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -47,6 +47,12 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: views.py
+  visible: true
+  learner_created: true
+- name: conf.py
+  visible: true
+  learner_created: true
 status: Solved
 feedback:
   time: Wed, 06 Apr 2022 18:12:48 UTC

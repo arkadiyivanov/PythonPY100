@@ -7,20 +7,19 @@ def main():
     field = init_field()
     print_field(field)
     current_player, next_player = FIRST_PLAYER, SECOND_PLAYER
+    dict_players_step ={ FIRST_PLAYER: player_step, SECOND_PLAYER: enemy_step}
     while True:
-        player_step(field, current_player)
+        current_player_step_func = dict_players_step[current_player]
+        current_player_step_func(field, current_player)
         print_field(field)
         if is_win(field):
             print_win_massage(current_player)
             break
-
-        enemy_step(field, next_player)
-        if is_win(field):
-            print_win_massage(next_player)
-            break
         if not has_empty_cell(field):
             print_draw_massage()
             break
+
+        current_player, next_player = next_player, current_player
 
 
 def player_step(field, player_symbol: str):
@@ -41,8 +40,8 @@ def player_step(field, player_symbol: str):
         set_cell(field, row_index=x, col_index=y, player_symbol)
 
 
-def enemy_step(player_symbol: str):
-    player_step(player_symbol)
+def enemy_step(field, player_symbol: str):
+    player_step(field, player_symbol)
 
 
 
