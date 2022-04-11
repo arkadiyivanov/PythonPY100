@@ -1,9 +1,14 @@
 
-
+from conf import EMPTY_SYMBOL, SIZE_FIELD
 def init_field(size: int = SIZE_FIELD) -> list[list]:
+    """
+
+    :param size:
+    :return:
+    """
     return [
             [EMPTY_SYMBOL for _ in range(size)] for _ in range(size)]
-print(init_field()) #тест поля
+# print(init_field()) #тест поля
 
 
 def is_empty_cell(field: list[list], row_index: int, col_index: int) -> bool:

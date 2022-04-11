@@ -1,4 +1,7 @@
 #views
+"""
+
+"""
 from models import init_field, is_win, has_empty_cell, is_empty_cell, set_cell
 from conf import EMPTY_SYMBOL, SIZE_FIELD, SECOND_PLAYER, FIRST_PLAYER
 
