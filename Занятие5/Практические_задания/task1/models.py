@@ -1,5 +1,4 @@
-EMPTY_SYMBOL = "-"
-SIZE_FIELD = 3
+
 
 def init_field(size: int = SIZE_FIELD) -> list[list]:
     return [

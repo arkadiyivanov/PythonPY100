@@ -1,8 +1,6 @@
 #views
-from models import init_field, is_win, has_empty_cell, EMPTY_SYMBOL, is_empty_cell, SIZE_FIELD, set_cell
-
-FIRST_PLAYER = "X"
-SECOND_PLAYER = "0"
+from models import init_field, is_win, has_empty_cell, is_empty_cell, set_cell
+from conf import EMPTY_SYMBOL, SIZE_FIELD, SECOND_PLAYER, FIRST_PLAYER
 
 
 def main():
@@ -18,7 +16,7 @@ def main():
 
         enemy_step(field, next_player)
         if is_win(field):
-            print_win_massage(current_player)
+            print_win_massage(next_player)
             break
         if not has_empty_cell(field):
             print_draw_massage()
